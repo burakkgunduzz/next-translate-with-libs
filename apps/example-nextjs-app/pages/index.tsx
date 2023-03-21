@@ -1,15 +1,13 @@
-import useTranslation from 'next-translate/useTranslation'
+import useTranslation from 'next-translate/useTranslation';
+import { Burak } from '../../../libs/burak/src';
 
 export function Index() {
-  const { t } = useTranslation('common')
-
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./index.css file.
-   */
+  const { t } = useTranslation('common');
   return (
-    <h1>{t("example")}</h1>
+    <>
+      <h1>{t('example')}</h1>
+      <Burak />
+    </>
   );
 }
 

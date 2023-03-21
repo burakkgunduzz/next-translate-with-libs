@@ -15,4 +15,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withNx(nextTranslate(nextConfig));
+module.exports = nextTranslate(withNx(nextConfig));

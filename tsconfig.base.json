@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@example/burak": ["libs/burak/src/index.js"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
