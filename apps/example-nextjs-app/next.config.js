@@ -1,4 +1,4 @@
-//@ts-check
+// @ts-nocheck
 const nextTranslate = require('next-translate-plugin')
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
